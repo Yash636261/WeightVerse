@@ -1,4 +1,4 @@
 function calc(){
-let input = parseInt(document.getElementById('kg'))
-console.log(input)
+amount=document.getElementById('kg').value
+document.getElementById("inp").innerHTML=amount
 }
