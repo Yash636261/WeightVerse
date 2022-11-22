@@ -1,11 +1,15 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
     background-image: url(images/galaxy.gif);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
 }
-.input{
-    text-align: center;
+header{
+    padding: 50px 10px;
 }
 header p{
     display: flex;
@@ -16,22 +20,36 @@ header p{
     color: rgb(250, 245, 245);
     text-align: center;
 }
+.input{
+    text-align: center;
+    padding: 20px 10px;
+}
 main{
     padding: 100px 10px;
 }
 .container{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    size-adjust: initial;
+    margin: auto;
 }
 .inp{
+    background-color: lightcoral;
+    opacity: 80%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     border: 1px solid #ddd;
-  border-radius: 1px;
-  height: 60px;
-  padding-right: 15px;
-  padding-top: 10px;
-  text-align: right;
-  margin-right: 6px;
-  font-size: 2.5rem;
-  overflow-x: auto;
-  transition: all .2s ease-in-out;
+    border-radius: 1px;
+    height: 60px;
+    width: 100px;
+    padding-right: 150px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
 }
 

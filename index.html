@@ -12,17 +12,17 @@
         <p>mass on planets</p>
         <div class="input">
             <input type="text" placeholder="mass in kilogram" id="kg">
-            <select placeholder="choose the planet">
-                <option value="none">venus</option>
-                <option value="none">mars</option>
-                <option value="none">moon</option>
-                <option value="none">earth</option>
-                <option value="none">mercury</option>
-                <option value="none">jupiter</option>
-                <option value="none">satrun</option>
-                <option value="none">uranus</option>
-                <option value="none">neptune</option>
-                <option value="none">pluto</option>
+            <select placeholder="choose the planet" id="option">
+                <option value="0.91">venus</option>
+                <option value="0.38">mars</option>
+                <option value="0.16">moon</option>
+                <option value="1">earth</option>
+                <option value="0.38">mercury</option>
+                <option value="2.34">jupiter</option>
+                <option value="1.06">satrun</option>
+                <option value="0.92">uranus</option>
+                <option value="1.19">neptune</option>
+                <option value="0.06">pluto</option>
             </select>
             <button type="button" onclick="calc()" id="output">calculate weight</button>
         </div>
@@ -32,7 +32,8 @@
             <div class="image">
                 <img src="images/earth.png" >
             </div>
-            <div class="inp" id="inp"></div>
+            <div class="inp" id="inp">
+            </div>
         </div>
     </main>
     <script src="script.js"></script>

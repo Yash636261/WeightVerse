@@ -1,4 +1,6 @@
 function calc(){
 amount=document.getElementById('kg').value
-document.getElementById("inp").innerHTML=amount
+temp=document.getElementById('option').value;
+let answer=amount*temp
+document.getElementById("inp").innerHTML=answer
 }
