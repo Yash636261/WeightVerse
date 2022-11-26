@@ -24,6 +24,10 @@ header p{
     text-align: center;
     padding: 20px 10px;
 }
+input,select,button{
+    padding: 5px;
+    font-size: 13px;
+}
 main{
     padding: 100px 10px;
 }
@@ -36,12 +40,11 @@ main{
     margin: auto;
 }
 .inp{
-    background-color: lightcoral;
-    opacity: 80%;
+    background-color: whitesmoke;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    border: 1px solid #ddd;
-    border-radius: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
     height: 60px;
     width: 100px;
     padding-right: 150px;
