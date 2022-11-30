@@ -16,7 +16,7 @@ switch(temp){
         img.src="images/moon.png"
         break
     case "1":
-        img.src="images/earth.png"
+        img.src="images/earth.gif"
         break
     case "0.38":
         img.src="images/mercury.png"
