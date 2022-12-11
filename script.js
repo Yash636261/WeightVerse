@@ -6,7 +6,6 @@ document.getElementById("inp").innerHTML=answer
 let img=document.getElementById('img');
 switch(temp){
     case "0.91":
-        console.log(temp)
         img.src="images/venus.png"
         break
     case "0.38":
@@ -16,7 +15,7 @@ switch(temp){
         img.src="images/moon.png"
         break
     case "1":
-        img.src="images/earth.gif"
+        img.src="images/earth.png"
         break
     case "0.38":
         img.src="images/mercury.png"
@@ -33,7 +32,7 @@ switch(temp){
     case "1.19":
         img.src="images/neptune.png"
         break; 
-    case "0.91":
+    case "0.06":
         img.src="images/pluto.png"
         break;           
 }
