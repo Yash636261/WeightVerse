@@ -1,2 +1,2 @@
 
-<h1> not responsive for smartphohnes</h1>
+<h1></h1>
