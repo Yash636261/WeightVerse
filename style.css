@@ -54,7 +54,7 @@ main{
     font-size: 2.5rem;
     transition: all .2s ease-in-out;
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 850px) {
     header{
         padding: 10px 10px 30px 10px;
     }
