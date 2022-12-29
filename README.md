@@ -4,16 +4,16 @@
 This is a simple web application that allows users to calculate their weight on different planets in the solar system. It is built using HTML, CSS, and JavaScript.
 </p>
 <br>
-<h1>
+<h3>
 How to use
-  </h1>
+  </h3>
 <p>
 To use this application, simply enter your weight in the input field and select the planet you wish to calculate your weight on. The application will then display your weight on the selected planet.
 </p>
 <br>
-<h1>
+<h3>
 Features
- </h1>
+ </h3>
  <br>
 <ul>
 <li>Calculates weight on nine different planets in the solar system</li>
@@ -21,9 +21,9 @@ Features
 <li>Responsive design for use on mobile devices</li>
   </ul>
   <br>
-  <h1>
+  <h3>
 Future updates
-  </h1>
+  </h3>
 <ul>
 <li>Add more celestial bodies beyond the solar system</li>
 <li>Improve overall design and user experience</li>
